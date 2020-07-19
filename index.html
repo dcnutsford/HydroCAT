@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Waikato River Authority Projects</title>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.8/esri/themes/light/main.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+
+    <script type="text/javascript">
+      var dojoConfig = {
+        async: true,
+        packages: [
+            {'name':'lodash', location:'https://cdn.jsdelivr.net/npm/lodash@4.17.15'}
+        ]
+      };
+    </script>
+    <script src="https://js.arcgis.com/4.13/"></script>
+    <script data-main="js/app" src="index.js"></script>
+
+  </head>
+
+  <body>
+    <div id="viewDiv"></div>
+    <div id="info">
+      <span id="Project_Number_Hover"></span> <br />
+      <!-- <span id="category"></span> <br />
+      <span id="wind"></span> -->
+    </div>
+  </body>
+
+</html>
